@@ -1,0 +1,92 @@
+body {
+  background: url(images/login_bg_alt_image.jpg);
+  height: 100%;
+  padding: 80px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+} 
+
+.form-box {
+  margin: auto;
+  padding: 15px;
+  max-width: 400px;
+  background: rgb(255,133,18);
+  background: linear-gradient(45deg, rgba(255,133,18,1) 0%, rgba(255,171,80,1) 100%);
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.form-box h1 {
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 2rem;
+  padding-bottom: .5rem;
+  text-align: center;
+  color: white;
+  letter-spacing: 5px;
+}
+
+@keyframes shine {
+  0% {
+    background-position-x: -500%;
+  }
+  100% {
+    background-position-x: 500%;
+  }
+}
+
+.input {
+  font-family: 'Montserrat', sans-serif;
+  height: 55px;
+}
+
+.password, .link {
+  margin: auto;
+  text-align: center;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.button, .tick {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: avenir;
+}
+
+.button {
+  width: 150px;
+  height: 65px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  background: rgb(254,169,75);
+  background: linear-gradient(184deg, rgba(254,169,75,1) 3%, rgba(209,115,25,1) 100%);
+  border: 1px solid white;
+  border-radius: 6px;
+  transition: all .2s cubic-bezier(0.67, 0.17, 0.40, 0.83);
+}
+
+.button svg {
+  transform: rotate(180deg);
+  transition: all .2s;
+}
+
+.button__circle {
+  width: 100px;
+  height: 100px;
+  background: rgba(59,78,101,1);
+  border-radius: 50%;
+  transform: rotate(-180deg);
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.tick {
+  color: rgb(255, 255, 255);
+  font-size: 1.2em;
+  transition: all .2s;
+  font-family: 'Montserrat', sans-serif;
+}
